@@ -1,47 +1,162 @@
-Cartzo Ecommerce Sales Dashboard
+# 📊 Cartzo E-Commerce Sales Dashboard
 
-The Cartzo Ecommerce Sales Dashboard is a comprehensive and interactive Power BI project designed to analyze and visualize sales performance, profitability, and customer behavior for a retail e-commerce business. By transforming raw transaction data into actionable insights, this dashboard empowers decision-makers to track key performance indicators (KPIs), understand geographic and categorical trends, and optimize business strategies
+![Dashboard Preview](dashboard.png)
 
-📊 Overview
+## 📖 Overview
 
-The dashboard provides a consolidated view of ecommerce sales performance across regions, customers, categories, and time, supported by quarter-wise and category-wise filtering.
+The **Cartzo E-Commerce Sales Dashboard** is a comprehensive and interactive **Power BI project** designed to analyze and visualize sales performance, profitability, customer behavior, payment preferences, and product trends for a retail e-commerce business.
 
-🔑 Key Metrics (KPI Cards)
-Metric	Value
-Sum of Amount	438K
-Sum of Quantity	5,615
-Sum of Profit	37K
-Sum of AVG VAL	121K
+By transforming raw transaction data into meaningful visual insights, this dashboard helps decision-makers monitor key performance indicators (KPIs), identify profitable product segments, understand regional sales patterns, and make data-driven business decisions.
 
-📈 Visualizations
-Sum of Amount by State — Bar chart comparing total sales across Maharashtra, Madhya Pradesh, Uttar Pradesh, and Delhi.
-Sum of Quantity by Payment Mode — Donut chart showing order share by payment method: COD (44%), UPI (21%), Debit Card (13%), Credit Card (12%), and EMI (10%).
-Profit by Month — Column chart tracking monthly profit trends (Jan–Dec), highlighting profitable vs. loss-making months.
-Sum of Amount by Customer Name — Bar chart ranking top customers by purchase value.
-Sum of Quantity by Category — Donut chart breaking down order volume by product category: Clothing (63%), Electronics (21%), and Furniture (17%).
-Sum of Profit by Sub-Category — Bar chart ranking sub-categories (Printers, Bookcases, Saree, Accessories, Tables) by profit contribution.
+## ✨ Key Features
 
+* **Sales & Profit Analysis**: Track total sales, quantity sold, and overall profitability through interactive KPI cards and visualizations.
+* **Geographic Analysis**: Compare sales performance across different states and identify high-performing regions.
+* **Category & Sub-Category Analysis**: Analyze product demand and profitability across categories and sub-categories.
+* **Customer Analysis**: Identify customers contributing the highest purchase value.
+* **Payment Mode Analysis**: Understand customer payment preferences across COD, UPI, debit card, credit card, and EMI.
+* **Monthly Profit Trends**: Monitor profit performance throughout the year and identify profitable and loss-making months.
+* **Interactive Filtering**: Use quarter and category slicers to dynamically explore the dashboard.
 
-🎛️ Filters / Slicers
-Quarter Selector — Qtr 1, Qtr 2, Qtr 3, Qtr 4
-Category Dropdown — Filter all visuals by product category (default: All)
+## 📊 Key Performance Indicators
 
-🛠️ Tools Used
-Power BI Desktop — data modeling, DAX measures, and report design
+| KPI                     | Value |
+| ----------------------- | ----: |
+| **Total Sales Amount**  |  438K |
+| **Total Quantity Sold** | 5,615 |
+| **Total Profit**        |   37K |
+| **Average Value**       |  121K |
 
-📁 Repository Contents
-Dashboard.png — Screenshot/preview of the report
-(Add your .pbix file and dataset here)
+## 📈 Dashboard Visualizations
 
-🚀 How to Use
-Clone this repository.
-Open the .pbix file in Power BI Desktop.
-Use the Quarter and Category filters to explore sales, profit, and customer trends interactively.
+### 🗺️ Sales by State
 
-📌 Key Insights
-COD is the most preferred payment mode, accounting for nearly half of all orders (44%).
-Clothing dominates order volume, contributing over 60% of total quantity sold.
-Maharashtra leads in sales amount among all states.
-Certain months (e.g., May, October) dip into negative profit, warranting further investigation.
+A bar chart comparing total sales across major states, including:
 
-Created with ❤️ for data-driven decision making.
+* Maharashtra
+* Madhya Pradesh
+* Uttar Pradesh
+* Delhi
+
+**Maharashtra** contributes the highest sales amount among the states shown.
+
+### 💳 Quantity by Payment Mode
+
+A donut chart displaying order quantity distribution across different payment methods:
+
+* **COD** — 44%
+* **UPI** — 21%
+* **Debit Card** — 13%
+* **Credit Card** — 12%
+* **EMI** — 10%
+
+COD is the most preferred payment method, accounting for nearly half of the total order quantity.
+
+### 📅 Monthly Profit Analysis
+
+A column chart tracks monthly profit from **January to December**, making it easier to identify seasonal trends and periods of strong or weak profitability.
+
+Certain months, including **May and October**, show negative profit and may require further investigation.
+
+### 👥 Sales by Customer
+
+A bar chart ranks customers according to their total purchase amount, helping identify high-value customers and understand customer contribution to overall revenue.
+
+### 👕 Quantity by Category
+
+A donut chart shows the distribution of quantity sold across product categories:
+
+* **Clothing** — 63%
+* **Electronics** — 21%
+* **Furniture** — 17%
+
+Clothing is the dominant category, contributing more than 60% of the total quantity sold.
+
+### 📦 Profit by Sub-Category
+
+A bar chart compares profit generated by different sub-categories, including:
+
+* Printers
+* Bookcases
+* Saree
+* Accessories
+* Tables
+
+This visualization helps identify the products contributing most significantly to profitability.
+
+## 🎛️ Interactive Filters
+
+The dashboard includes interactive slicers that allow users to dynamically analyze the data.
+
+### Quarter Selector
+
+Users can filter the dashboard by:
+
+* Qtr 1
+* Qtr 2
+* Qtr 3
+* Qtr 4
+
+### Category Filter
+
+The category slicer allows users to filter all dashboard visuals by:
+
+* Clothing
+* Electronics
+* Furniture
+* All Categories
+
+These filters make it easier to perform focused analysis and compare business performance across different periods and product segments.
+
+## 🛠️ Technologies Used
+
+* **Microsoft Power BI** — Dashboard development, data modeling, and interactive visualization.
+* **Power Query** — Data cleaning, transformation, and preparation.
+* **DAX** — Creation of calculated measures and KPI calculations.
+
+## 📁 Repository Structure
+
+```text
+Cartzo-ECommerce-Sales-Dashboard/
+│
+├── 📊 Cartzo E-Commerce Sales Dashboard.pbix
+├── 🖼️ dashboard.png
+├── 📄 Orders.csv
+├── 📄 Details.csv
+└── 📖 README.md
+```
+
+> **Note:** Add the `.pbix` file and source datasets to the repository if you want others to reproduce or explore the dashboard.
+
+## 📥 How to Use
+
+1. Download and install **Microsoft Power BI Desktop**.
+2. Clone or download this repository:
+
+```bash
+git clone https://github.com/your-username/Cartzo-ECommerce-Sales-Dashboard.git
+```
+
+3. Open the **`Cartzo E-Commerce Sales Dashboard.pbix`** file in Power BI Desktop.
+4. If required, update the data source paths for the CSV files.
+5. Refresh the dataset.
+6. Use the **Quarter** and **Category** filters to explore sales, profit, customer, and product trends.
+
+## 💡 Key Business Insights
+
+* **COD** is the most preferred payment method, accounting for approximately **44%** of total quantity.
+* **Clothing** dominates product demand with approximately **63%** of total quantity sold.
+* **Maharashtra** is the leading state in terms of sales amount.
+* **May and October** experience negative profit and could require further investigation.
+* Sub-category analysis helps identify products that contribute significantly to overall profitability.
+* Customer-level analysis can help identify high-value customers and potential opportunities for targeted marketing.
+
+## 🎯 Project Objective
+
+The primary objective of this project is to convert raw e-commerce transaction data into an **interactive business intelligence dashboard** that provides a clear understanding of sales, profitability, customer behavior, payment preferences, and product performance.
+
+The dashboard demonstrates how **Power BI, Power Query, and DAX** can be used together to support data-driven decision-making.
+
+---
+
+*Created with ❤️ for data-driven decision making.*
