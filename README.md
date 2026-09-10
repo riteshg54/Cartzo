@@ -1,6 +1,7 @@
 # 📊 Cartzo E-Commerce Sales Dashboard
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](dashboard<img width="955" height="536" alt="Dashboard" src="https://github.com/user-attachments/assets/7eda187a-0e60-4114-9438-535b8894307a" />
+.png)
 
 ## 📖 Overview
 
