@@ -1,6 +1,6 @@
 Cartzo Ecommerce Sales Dashboard
 
-An interactive Power BI dashboard analyzing sales, profit, and customer performance for Cartzo, a fictional ecommerce business. The report enables quick identification of top-performing states, customers, product categories, and payment trends.
+The Cartzo Ecommerce Sales Dashboard is a comprehensive and interactive Power BI project designed to analyze and visualize sales performance, profitability, and customer behavior for a retail e-commerce business. By transforming raw transaction data into actionable insights, this dashboard empowers decision-makers to track key performance indicators (KPIs), understand geographic and categorical trends, and optimize business strategies
 
 📊 Overview
 
@@ -38,10 +38,10 @@ Clone this repository.
 Open the .pbix file in Power BI Desktop.
 Use the Quarter and Category filters to explore sales, profit, and customer trends interactively.
 
-📌 Insights
-COD is the most preferred payment mode, accounting for nearly half of all orders.
+📌 Key Insights
+COD is the most preferred payment mode, accounting for nearly half of all orders (44%).
 Clothing dominates order volume, contributing over 60% of total quantity sold.
 Maharashtra leads in sales amount among all states.
-Certain months (e.g., May, October) show a dip into negative profit, warranting further investigation.
+Certain months (e.g., May, October) dip into negative profit, warranting further investigation.
 
 Created with ❤️ for data-driven decision making.
